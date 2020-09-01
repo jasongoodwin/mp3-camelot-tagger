@@ -70,12 +70,6 @@ class Mp3File():
         self.easyid3 = EasyID3(file_location)
         self.id3 = ID3(file_location)
 
-        # print("try")
-        # print(self.id3["TKEY"][0])
-        # self.id3.add(TKEY(encoding = 3, text=[u"A1"]))
-        # print("set now print")
-        # print(self.id3["TKEY"][0])
-
     def get_key(self):
         return self.id3["TKEY"][0]
 
