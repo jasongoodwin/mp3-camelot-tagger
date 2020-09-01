@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# FS bits, project, etc
+.DS_Store
+.idea
+
 # C extensions
 *.so
 
