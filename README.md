@@ -4,7 +4,10 @@ Note that this project is not really in any state for use, I just wanted to see 
 
 # DON'T USE THIS!
 Note that this probably doesn't work so please proceed with caution.
-The key map is missing so you'd need to fill that out (note that camelot is proprietary so I will not post the notation here.)
+The key map is missing so you'd need to fill that out (note that camelot is proprietary so I will not post the notation/translation here.)
+The key detection from beatport or rekordbox is not as accurate as camelot so I'd recommend you just buy a copy of Mixed-In-Key if you want camelot notation - if you translate from other detection sources you'll end up with some bad/wrong keys. 
+You can read some older (2016) DubSpot analysis of the accuracy here: http://blog.dubspot.com/dubspot-lab-report-mixed-in-key-vs-beatport/
+You'll see mixed-in-key's detection is more reliable, and, when it's incorrect, it's only off by a fifth - you can trust it. Yakov @ Mixed in Key has assured me the new and upcoming versions are even more accurate.
 
 ## Why write this?
 I was using mixed-in-key w/ rekordbox for a while just to get camelot notation.
@@ -13,10 +16,10 @@ I couldn't find anything easy to use that did this for me - mac has python runni
 I wanted to see and understand the ID3 data a bit better so I wrote this.
 
 ## Is this legal?
-Not with the Camelot notation - my friend Sara Simms just highlighted to me that camelot is IP of mixed-in-key. 
-This project does not include key translations - you'll have to fill that in yourself.
-I mailed Yakov @ Mixed in Key and he said that it would be confusing for users to translate the Beatport keys to camelot as they're very often wrong (and Mixed-In-Key is generally only off by a fifth if it's off at all - Yakov mentioned this is fixed/improved in upcoming versions.)
-I found my mixed in key license and strongly recommend using it - this project was just a little one or two hour hack project, but it's here if you want to translate your key notation in the ID3 tags for any reason, or if you just want to see how to interact with the metadata in python.
+Not with the Camelot notation - my very good friend Sara Simms just highlighted to me that camelot is IP of mixed-in-key. 
+This project does not include key translations - you'll have to fill that in yourself if you choose to use it but know it will often not be accurate if you're using other sources of detection (Traktor, Rekordbox, Beatport, etc).
+I mailed Yakov @ Mixed in Key and he said that it would be confusing for users to translate the Beatport-detected keys to camelot as they're very often wrong (and Mixed-In-Key is generally only off by a fifth if it's off at all - Yakov mentioned this is fixed/improved in upcoming versions.)
+I found my mixed in key license and strongly recommend using it. I've been using it since v3 or v4.
 
 ## Usage
 Note you'll need to first modify this to fill in the key mappings.
