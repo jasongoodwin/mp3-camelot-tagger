@@ -1,5 +1,6 @@
 # mp3-key-translator
-Take rekordbox generated key data in mp3s and convert it to whatever format you want.
+Take rekordbox or beatport generated key data in mp3s and convert it to whatever format you want.
+Note that this project is not really in any state for use, I just wanted to see if I could do it and to understand the ID3 spec a bit better.
 
 # DON'T USE THIS!
 Note that this probably doesn't work so please proceed with caution.
