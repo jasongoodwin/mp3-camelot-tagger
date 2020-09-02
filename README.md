@@ -22,11 +22,13 @@ I mailed Yakov @ Mixed in Key and he said that it would be confusing for users t
 I found my mixed in key license and strongly recommend using it. I've been using it since v3 or v4.
 
 ## Usage
-Note you'll need to first modify this to fill in the key mappings.
+Note you'll need to first modify this to fill in the key mappings/traslations you want.
 Pass a file or list of files to the script (shown below).
 It will validate it can open and modify _ALL_ files passed before writing the updated tags.
 Note that rekordbox will _not_ save the tags if you're using rekordbox for keying files.
 Beatport includes key information, so this may update the beatport key tags after analyzing w/ rekordbox - just be careful and try on a file or two to ensure your workflow is functioning as expected.
+(Note it will currently fail if you try to reprocess a file.)
+Back up your library first if you choose to proceed - there be dragons.
 
 To use just pass a list of mp3 files as arguments. It tries to safely validate the files are there, can be read, and have the _expected_ key information.
 ```
