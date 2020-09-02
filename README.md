@@ -1,10 +1,17 @@
 # mp3-camelot-tagger
 Take rekordbox generated key data in mp3s and convert it to camelot.
 
+# DON'T USE THIS!
+Note that this probably doesn't work so please proceed with caution.
+Still being tested, and actually camelot is licensed by Mixed-in-key so we likely cannot use the notation in open-source projects.
+
 ## Why write this?
 I was using mixed-in-key w/ rekordbox for a while just to get camelot notation.
-I'd rather just take the key-data that's there and convert it to camelot notation so this does that.
+I lost my mixed-in-key license while prepping on the road so I decided to just take the beatport TKEY tag and convert it to Camelot notation.
 I couldn't find anything easy to use that did this for me - mac has python running. This project has everything you need to get this done easily.
+
+## Is this legal?
+No - my friend Sara Simms just highlighted to me that camelot is IP of mixed-in-key so I can't keep this up. I'm querying 
 
 ## Usage
 Pass a file or list of files to the app.
