@@ -3,63 +3,7 @@ from mutagen.id3 import ID3, TKEY
 
 class Mp3File():
     KEYS_MAP = {
-        "Abmin": "1A",
-        "G#min": "1A",
-
-        "Ebmin": "2A",
-        "D#min": "2A",
-
-        "Bbmin": "3A",
-        "A#min": "3A",
-
-        "Fmin": "4A",
-
-        "Cmin": "5A",
-
-        "Gmin": "6A",
-
-        "Dmin": "7A",
-
-        "Amin": "8A",
-
-        "Emin": "9A",
-
-        "Bmin": "10A",
-
-        "F#min": "11A",
-        "Gbmin": "11A",
-
-        "Dbmin": "12A",
-        "C#min": "12A",
-
-        "B": "1B",
-
-        "F#": "2B",
-        "Gb": "2B",
-
-        "Db": "3B",
-        "C#": "3B",
-
-        "Ab": "4B",
-        "G#": "4B",
-
-        "Eb": "5B",
-        "D#": "5B",
-
-        "Bb": "6B",
-        "A#": "6B",
-
-        "F": "7B",
-
-        "C": "8B",
-
-        "G": "9B",
-
-        "D": "10B",
-
-        "A": "11B",
-
-        "E": "12B",
+        # put your translation map here.
     }
 
     def __init__(self, file_location):
